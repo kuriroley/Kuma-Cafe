@@ -54,14 +54,15 @@ main{
 .info-container-1{
     display: flex;
     border: 1px solid black;
-    height: 600px;
+    height: 550px;
     width: 100%;
 }
 .info-1{
     border: solid 2px blue;
     align-content: center;
     padding: 36px 54px;
-    width: 50%;
+    max-width: 50%;
+    flex-grow: 1;
 }
 .info-1 p{
     
@@ -70,5 +71,5 @@ main{
 }
 .pic-container{
     border: solid 2px blue;
-    width: 50%;
+    max-width: 50%;
 }
