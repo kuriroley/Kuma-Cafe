@@ -62,18 +62,30 @@ main{
     width: 100%;
 }
 .info-1{
-    border: solid 2px blue;
-    align-content: center;
+    display: flex;
+    background-color: #1e3932;
+    border: solid 2px rgb(205, 135, 98);
     padding: 36px 54px;
     max-width: 50%;
     flex-grow: 1;
 }
-.info-1 p{
-    
-    background-color: antiquewhite;
+.info-1-data{
+    display: flex;
+    max-width: 100%;
+    flex-direction: column;
+    align-content: center;
+}
+.info-1-data h1,p{
     text-align: center;
+    color: white;
+    
+}
+.info-1-button{
+    height: 30px;
+    width: 150px;
 }
 .pic-container{
+    background-color: rgb(255, 202, 161);
     border: solid 2px blue;
     max-width: 50%;
 }
