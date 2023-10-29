@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 body{
    margin: 0;
    height: 100%;
@@ -50,42 +53,14 @@ body{
     transition: 0.3s;
 }
 main{
-    margin-top: 20px;
+    margin-top: 30px;
     padding: 5px;
-    width: 100%;
-    height: 100%;
-}
-.info-container-1{
-    display: flex;
-    border: 1px solid black;
-    height: 550px;
-    width: 100%;
-}
-.info-1{
-    display: flex;
-    background-color: #1e3932;
-    border: solid 2px rgb(205, 135, 98);
-    padding: 36px 54px;
-    max-width: 50%;
-    flex-grow: 1;
-}
-.info-1-data{
-    display: flex;
     max-width: 100%;
-    flex-direction: column;
-    align-content: center;
+    max-height: 100%;
+    border: solid 2px black;
 }
-.info-1-data h1,p{
-    text-align: center;
-    color: white;
-    
-}
-.info-1-button{
-    height: 30px;
-    width: 150px;
-}
-.pic-container{
-    background-color: rgb(255, 202, 161);
-    border: solid 2px blue;
-    max-width: 50%;
+.info-container{
+    background-color: rgb(229, 176, 107);
+    width: 100%;
+    height: 500px;
 }
