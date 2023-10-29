@@ -60,7 +60,50 @@ main{
     border: solid 2px black;
 }
 .info-container{
+    display: flex;
     background-color: rgb(229, 176, 107);
     width: 100%;
-    height: 500px;
+    height: 500px;   
+}
+.info-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+    background-color: rgb(64, 81, 97);
+    margin: 0 auto;
+    padding: 50px;
+    /* border: 50px solid rgba(37, 58, 27, 0.978); */
+}
+.info-text h1, p{
+    color: white;
+}
+.info-text h1{
+    font-size: 40px;
+    text-align: justify;
+}
+.info-text p{
+    margin-top: 20px;
+    font-size: 30px;
+}
+.menu-button{
+    display: inline-block;
+    border-style: solid;
+    margin-top: 60px;
+    font-size: 20px;
+    padding: 7px 16px;
+    font-weight: 300;
+    border-radius: 50px;
+    color: white;
+    background-color: rgba(255, 228, 196, 0.389);
+    box-shadow: 5px 5px 5px black;
+}
+
+.picture-container{
+    height: 100%;
+    width: 50%;
+    background-color: rgb(251, 249, 242);
+    margin: 0 auto;
 }
