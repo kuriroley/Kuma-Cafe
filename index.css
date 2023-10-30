@@ -104,6 +104,17 @@ main{
 .picture-container{
     height: 100%;
     width: 50%;
-    background-color: rgb(251, 249, 242);
+    background: linear-gradient(rgb(202, 197, 197), rgb(53, 53, 108) , rgb(183, 93, 93));
     margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.kagopic{
+    border-radius: 100px;
+    padding: 20px;
+    height: 400px;
+    max-width: 100%;
+    object-fit: contain;
 }
